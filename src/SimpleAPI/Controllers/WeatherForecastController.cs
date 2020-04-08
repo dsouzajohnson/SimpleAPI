@@ -31,7 +31,7 @@ namespace SimpleAPI.Controllers
                 case 1:
                     return "Johnson Dsouza";
                 case 2:
-                    return "Johnson Joseph Dsouza";
+                    return "Johnson Joseph Dsouza 2";
                 default:
                     return "Other";
             }
