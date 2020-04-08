@@ -1,15 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{804A2D7A-7FB0-47C1-BB21-7F281B1B9642}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAPI", "src\SimpleAPI\SimpleAPI.csproj", "{97E14450-097C-4BC7-A882-7B110FD71637}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleAPI", "src\SimpleAPI\SimpleAPI.csproj", "{97E14450-097C-4BC7-A882-7B110FD71637}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4BBFEEA1-D87A-498D-8DB8-809C7A600F93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAPI.Test", "test\SimpleAPI.Test\SimpleAPI.Test.csproj", "{8CBE6020-D64A-4A65-BE56-2291FB8ABEB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleAPI.Test", "test\SimpleAPI.Test\SimpleAPI.Test.csproj", "{8CBE6020-D64A-4A65-BE56-2291FB8ABEB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B9F5D7A4-712C-4575-A087-FB89430884D2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +24,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{97E14450-097C-4BC7-A882-7B110FD71637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -49,8 +51,14 @@ Global
 		{8CBE6020-D64A-4A65-BE56-2291FB8ABEB2}.Release|x86.ActiveCfg = Release|Any CPU
 		{8CBE6020-D64A-4A65-BE56-2291FB8ABEB2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{97E14450-097C-4BC7-A882-7B110FD71637} = {804A2D7A-7FB0-47C1-BB21-7F281B1B9642}
 		{8CBE6020-D64A-4A65-BE56-2291FB8ABEB2} = {4BBFEEA1-D87A-498D-8DB8-809C7A600F93}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0A953E2-5F36-41C2-B2CA-66DC3C77871F}
 	EndGlobalSection
 EndGlobal
