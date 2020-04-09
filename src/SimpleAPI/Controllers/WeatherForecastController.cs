@@ -29,9 +29,9 @@ namespace SimpleAPI.Controllers
             switch(id)
             {
                 case 1:
-                    return "Johnson Dsouza Break";
+                    return "Johnson Dsouza";
                 case 2:
-                    return "Johnson Joseph Dsouza Break";
+                    return "Johnson Joseph Dsouza";
                 default:
                     return "Other";
             }
