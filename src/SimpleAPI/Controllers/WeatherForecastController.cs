@@ -28,6 +28,8 @@ namespace SimpleAPI.Controllers
         {
             switch(id)
             {
+                case 0:
+                    return "Johnson";
                 case 1:
                     return "Johnson Dsouza";
                 case 2:
