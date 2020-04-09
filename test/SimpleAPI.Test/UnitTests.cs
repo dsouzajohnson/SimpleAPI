@@ -4,7 +4,7 @@ using Xunit;
 
 namespace SimpleAPI.Test
 {
-    public class UnitTest1
+    public class UnitTests
     {
         WeatherForecastController controller = new WeatherForecastController();
         [Fact]
